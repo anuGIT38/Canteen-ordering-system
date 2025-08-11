@@ -1,0 +1,21 @@
+{
+  "name": "canteen-database",
+  "version": "1.0.0",
+  "description": "Database layer for Canteen Ordering System",
+  "main": "connection.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "test": "node test-connection.js"
+  },
+  "dependencies": {
+    "pg": "^8.9.0",
+    "dotenv": "^16.0.3"
+  },
+  "keywords": [
+    "postgresql",
+    "database",
+    "canteen"
+  ],
+  "author": "Team Member 1",
+  "license": "MIT"
+}
